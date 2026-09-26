@@ -20,7 +20,7 @@ Six fixed campus locations were rated by each respondent for their mobile provid
 
 Each location was manually mapped to (a, b) grid coordinates from a campus satellite image.
 
-Final.xlsx contains:
+Network_Prediction_Data.xlsx contains:
 - Master_Dataset — Long-format data: RespondentID, Location, Provider, Rating, a, b (515 rows)
 - Provider_Summary — Avg rating + variance per (Provider, Location)
 - Coordinate_Lookup — Location → (a, b) mapping
