@@ -1,0 +1,10 @@
+Model,Selection,MAE,RMSE
+Provider mean (no spatial info),fixed,0.7180311111111112,0.8371477158383301
+"IDW p=1, k=5",fixed,0.643267365123925,0.746628961775958
+"IDW p=2, k=5",fixed (default),0.5941084925810683,0.7052387318909258
+"IDW p=3, k=5",p picked on these 18 points,0.5781013928734713,0.7039080921327507
+"IDW, p tuned in nested CV",nested,0.6881721580307977,0.7886327849694402
+"KNN per provider, distance-weighted, k=5",fixed,0.6437789783985823,0.7484982486566536
+"KNN combined, uniform, k=1",k picked on these 18 points,0.6619666666666667,0.863805537529522
+"KNN combined, uniform, k tuned in nested CV",nested,0.8928079629629629,1.0296602679711397
+"KNN per provider, uniform, k tuned in nested CV",nested,0.8610930555555555,0.9981450598241665
